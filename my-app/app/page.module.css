@@ -1,0 +1,85 @@
+/* first section with bg */
+.main section:nth-of-type(1) {
+    background-image: url('../public/manMountain.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+/* achieving growth container */
+.firstDiv {
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    padding-top: 8%;
+    margin-top: 5px;
+
+}
+/* first section header 3 */
+.main section:nth-of-type(1) h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+/* first section header 1 */
+.main section:nth-of-type(1) h1 {
+    font-size: 26px;
+}
+/* buttons for all sections */
+.main section:nth-of-type(1) button,
+.main section:nth-of-type(2) button,
+.main section:nth-of-type(3) button {
+    color: rgb(13, 54, 87);
+}
+/* third section with bg */
+.main section:nth-of-type(3) {
+    background-image: linear-gradient(rgba(230, 242, 246, 0.855),
+            rgba(230, 242, 246, 0.855)), url('../public/mountainBG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+/* fourth section unorderd list */
+.main section:nth-of-type(4) ul {
+    list-style-type: none;
+}
+/* fifth section  */
+.main section:nth-of-type(5) {
+    background-color: rgb(243, 243, 243);
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main section:nth-of-type(1) {
+        height: 90vh;
+    }
+
+    .firstDiv {
+        width: 55%;
+        padding-top: 3%;
+    }
+
+    .main section:nth-of-type(1) h3 {
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .main section:nth-of-type(1) h1 {
+        font-size: 60px;
+    }
+
+    .main section:nth-of-type(3) p{
+        width: 50%;
+        margin: 30px auto;
+        line-height: 30px;
+    }
+    .main section:nth-of-type(4) {
+        padding: 75px 0 150px 0;
+    }
+  
+    .main section:nth-of-type(4) ul {
+        margin-top: 120px;
+    }
+
+
+}

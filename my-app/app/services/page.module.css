@@ -1,0 +1,32 @@
+.Services button{
+    width: 100%;
+}
+
+.Services h1{
+    font-size: 36px;
+}
+
+.Services h1:first-of-type{
+    margin-top: 100px;
+}
+
+@media only screen and (min-width:992px) {
+    .Services h1{
+        font-size: 48px ;
+    }
+    .Services h3{
+        font-size: 20px;
+    }
+
+  .row{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .row p {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .Services button{
+        width: 40%;
+    }
+}

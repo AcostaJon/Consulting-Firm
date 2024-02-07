@@ -1,0 +1,69 @@
+.about img {
+    height: 550px;
+    width: 100%;
+}
+
+.about p {
+    line-height: 30px;
+}
+
+.about h1:first-of-type{
+    margin-top: 100px;
+    font-size: 36px;
+}
+
+/* our team section */
+.about section:nth-of-type(2) h2{
+    font-size: 32px;
+}
+
+.about section:nth-of-type(3) h2,.about section:nth-of-type(4) h2{
+    font-size: 28px;
+}
+
+.about section:nth-of-type(3) h3,.about section:nth-of-type(4) h3{
+    font-size: 18px;
+}
+
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+    .about h1:first-of-type{
+        margin-top: 150px;
+        font-size: 48px ;
+    }
+
+    .about section:nth-of-type(1) img{
+        height: 550px;
+    }
+
+    .about section:nth-of-type(1) p {
+        line-height: 28px;
+    }
+
+    
+    .about img {
+        height: 400px;
+    }
+    
+    .about p {
+        line-height: 25px;
+        font-size: 14px;
+    }
+    
+    /* our team section */
+    .about section:nth-of-type(2) h2{
+        font-size: 40px;
+    }
+    .about section:nth-of-type(2) p{
+        width: 30%;
+        margin: auto;
+    }
+
+    /* emplyees */
+    .employeeRow{
+        width: 80%;
+        margin: auto auto;
+    }
+
+}

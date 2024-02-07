@@ -1,0 +1,55 @@
+
+.PlansPricing h1{
+    
+    font-size: 39px;
+}
+
+.PlansPricing h1:first-of-type{
+    margin-top: 100px;
+}
+
+.PlansPricing p{    
+    margin: 20px 25px;
+}
+
+.PlansPricing span{    
+    position: relative;
+    top: -37px;
+    border: black  solid 1px;
+    background-color: rgb(13, 54, 87);
+    color: white;
+    padding: 10px 12px;
+}
+
+.PlansPricing p,.PlansPricing h3,.PlansPricing h1{    
+    color: rgb(13, 54, 87);
+}
+
+
+.PlansPricing a{    
+    width: 90%;
+    background-color: rgb(13, 54, 87);
+}
+
+.cardContent h1{
+    font-size: 75px;
+}
+.accordion{
+    margin-top: 25px;
+}
+.accordion ul{
+    list-style-type: none;
+}
+
+.accordion button::after{
+   margin: 0 auto;
+}
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+
+    .PlansPricing h1{
+        font-size: 50px;
+        margin-top: 15px;
+    }
+}

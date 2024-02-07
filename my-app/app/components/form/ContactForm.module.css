@@ -1,0 +1,15 @@
+.form {
+    width: 80%;
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .form div[type="submit"] {
+        height: 50px;
+    }
+
+    .form {
+        width: 45%;
+    }
+
+}
